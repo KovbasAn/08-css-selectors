@@ -29,6 +29,7 @@ form {
 label {
   display: flex;
   color: #ffffff;
+  align-items: center;
   height: 45px;
   padding: 14px;
   transition: all .1s ease-in;
@@ -36,9 +37,13 @@ label {
 }
 label:nth-child(odd) {
   background-color: #88839E;
+  border-top: 3px solid #88839E;
+  border-bottom: 3px solid #88839E;
 }
 label:nth-child(even) {
   background-color: #7A7593;
+  border-top: 3px solid #7A7593;
+  border-bottom: 3px solid #7A7593;
 }
 label:hover {
   background-color: #625E77;
@@ -54,17 +59,17 @@ input[type="checkbox"] {
   border: none;
   margin-right: 16px;
 }
-input[type="checkbox"]:checked + p {
+:checked + p, :checked + p + p {
   color: #9B96AC;
   text-decoration: line-through;
 }
-small {
+.small {
   font-size: 11px;
 }
-small::before {
+.small::before {
   content: '(';
 }
-small::after {
+.small::after {
   content: ')';
 }
 footer{
