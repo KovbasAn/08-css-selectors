@@ -15,3 +15,5 @@
 - :checked
 - :before і :after
 - :nth-child
+
+![image](https://user-images.githubusercontent.com/116391131/198817571-e41f6eb0-5c26-46b4-9064-6698dc4ce811.png)
